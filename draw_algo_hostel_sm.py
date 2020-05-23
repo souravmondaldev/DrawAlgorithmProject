@@ -2,6 +2,8 @@
 			#-----Created By: Sourav Mondal-------#
 			#-----Created at: 21/05/2020----------#
 			#------ Roll No - 17IT8052------------#
+			#------overall complexity is O(n^2) as used bubble sort for sorting drawNumbers
+			#------which can be reduced with merge sort O(nlog(n))
 import random
 
 def generateDrawNumbers(drawNumList, size):         #Used For generating random number list used as draw numbers
@@ -29,7 +31,7 @@ def printList(studentChoice):							#Used for Printing Student choice list
 def readStudentChoiceInputFile(studentChoice):			#This function Takes input from another file and stores it in the student choice list
 	textFile= open('draw_algorithm_input.txt','r') 		#Opening the input File(Must be in same location)
 	lineList=textFile.readlines()
-	for subList in lineList:							#Spliting each space seperated lines and converting into integers list
+	for subList in lineList:				#Spliting each space seperated lines and converting into integers list
 		subList=subList.split()
 		for i, v in enumerate(subList):
 			if v.isdigit():
