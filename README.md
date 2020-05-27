@@ -13,11 +13,11 @@ This is a simple implimentation of pareto optimal solution for priority based se
 
 ## How to run
 
-Before running make sure you are having an python installed for windows users or linux users.For windows user just open the file with any python ide and just compile and run.For unix users first navigate to the directory where this ```draw_algo_hostel_sm.py ``` file stored and then run the follwoing commands in terminal.
+Before running make sure you are having an python installed for windows users or linux users.For windows user just open the file with any python ide and just compile and run.For unix users first navigate to the directory where this ```drawAlgorithm.py ``` file stored and then run the follwoing commands in terminal.
 
 ```In linux terminal or windows terminal
-python3 draw_algo_hostel_sm.py    #For python version above 3
-python draw_algo_hostel_sm.py     #For python 2.7
+python3 drawAlgorithm.py    #For python version above 3
+python drawAlgorithm.py    #For python 2.7
 
 ## Usage
 
@@ -26,13 +26,14 @@ python draw_algo_hostel_sm.py     #For python 2.7
 
   def main() # main function which all other from main function
 
-  def drawAlgoithm(studentChoice, finalAllotmentList): #used as a function for draw algorithm, generates draw number randomly
+  def drawAlgoithm(studentChoice, finalAllotmentList,n): #used as a function for draw algorithm, generates draw number randomly, n is the number of rooms and students to be alloted. where for n student n choices list will be generated randomly via this function call
+  
+  def generateStudentChoice(n): Generates students choice list for n students randomly
 
-  def sortDrawList(studentChoice): # Sorting student choice list according to the draw numbers
+  def sortDrawList(choiceWithDrawNum):  Sorting student choice list according to the draw numbers
+  
+  def randomNumbers(Numbers, size): Suffle and retuns a random drawNumber from the drawNumbersList
 ```
-## Cons
-```file handling``` not added. A file system can make this block of code more reusable and complete. Any PR for ```file handling``` 
-solution is appriciated 😊.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
