@@ -18,15 +18,17 @@ Before running make sure you are having an python installed for windows users or
 ```In linux terminal or windows terminal
 python3 drawAlgorithm.py    #For python version above 3
 python drawAlgorithm.py    #For python 2.7
+```
+<img align="center" height="500" src="output-onlinetexttools.png" alt="Draw Algorithm example input output"/>
 
 ## Usage
 
 ```Python
 
 
-  def main() # main function which all other from main function
+  def main() : main function which all other from main function
 
-  def drawAlgoithm(studentChoice, finalAllotmentList,n): #used as a function for draw algorithm, generates draw number randomly, n is the number of rooms and students to be alloted. where for n student n choices list will be generated randomly via this function call
+  def drawAlgoithm(studentChoice, finalAllotmentList,n): used as a function for draw algorithm, generates draw number randomly, n is the number of rooms and students to be alloted. where for n student n choices list will be generated randomly via this function call
   
   def generateStudentChoice(n): Generates students choice list for n students randomly
 
