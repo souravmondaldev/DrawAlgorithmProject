@@ -8,8 +8,7 @@
 <img style="padding:10px;" src="https://img.shields.io/github/languages/count/souravmondaldev/DrawAlgorithmProject?style=flat-square">
 <img style="padding:10px;" src="https://img.shields.io/github/license/souravmondaldev/DrawAlgorithmProject?style=flat-square">
 
-
-This is a simple implimentation of pareto optimal and strategyproof solution for priority based selection using Draw Algorithm in python3.This program will let you choose hostel rooms depending on your priority and vacent rooms available. On the basis of true choice of student , they will be rewarded with best room available depending on their choice.
+This is a simple implementation of Pareto optimal and strategyproof solution for priority-based selection using the Draw Algorithm in python3.This program will let you choose hostel rooms depending on your priority and vacant rooms available. On the basis of the true choice of students, they will be rewarded with the best room available depending on their choice.
 
 ## How to run
 
