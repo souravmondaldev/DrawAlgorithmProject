@@ -37,8 +37,8 @@ def generateStudentChoice(n):
 		f.writelines(str(choiceList[i]))
 		f.write("\n")
 	
-
-def drawAlgoithm(studentChoice, finalAllotmentList,n):	#The main draw algorithm function
+#Draw Algorithm Main part
+def drawAlgoithm(studentChoice, finalAllotmentList,n):
 	# #drawNumList will store the draw numbers
 	generateStudentChoice(n)
 	#choice=[]
