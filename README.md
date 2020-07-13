@@ -41,5 +41,8 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate. Feel free to contact here: souravmondal0341@gmail.com
 
+## Update
+Two sided matching algo will be updated soon.
+
 ## Credits
 [Sourav Mondal](https://github.com/souravmondaldev)
