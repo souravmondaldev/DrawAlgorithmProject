@@ -2,6 +2,8 @@
 			#-----Created By: Sourav Mondal-------#
 			#-----Created at: 26/05/2020----------#
 			#------ Roll No - 17IT8052------------#
+			
+			#One Sided selection only draw
 import random
 
 def randomNumbers(Numbers, size):         #Used For generating random number list used as draw numbers
