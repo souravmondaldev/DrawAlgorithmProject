@@ -10,8 +10,8 @@ def randomNumbers(Numbers, size):         #Used For generating random number lis
 	Num=Numbers
 	random.shuffle(Num)
 	return Num
-def sortDrawList(choiceWithDrawNum):						#Used for sorting choice list by draw number,using bubble sort 
-	choiceWithDrawNum.sort(key=lambda num:num[1])
+def sortDrawList(choiceWithDrawNumber):						#Used for sorting choice list by draw number,using bubble sort 
+	choiceWithDrawNumber.sort(key=lambda num:num[1])
 
 		
 def generateStudentChoice(n):
@@ -57,17 +57,17 @@ def drawAlgoithm(studentChoice, finalAllotmentList,n):
 	drawNumbers=[i+1 for i in range(n)]
 	drawNumbers=randomNumbers(drawNumbers,n)
 	print("Draw Numbers are:",drawNumbers[0:])
-	choiceWithDrawNum=[]
+	choiceWithDrawNumber=[]
 	for i in range(0,n):
 		pair=(i,drawNumbers[i])
-		choiceWithDrawNum.append(pair)
+		choiceWithDrawNumber.append(pair)
 		
-	sortDrawList(choiceWithDrawNum)
+	sortDrawList(choiceWithDrawNumber)
 	alloted=[0]*(n+1)
 	
 	picked=0
 	for i in range(0,n):
-		roomNow=choiceWithDrawNum[i][0]
+		roomNow=choiceWithDrawNumber[i][0]
 		for j in range(0,n):
 			picked=studentChoice[roomNow][j]
 			if alloted[picked]==0:
